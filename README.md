@@ -77,8 +77,6 @@ Gestion des voitures :
 Gestion des Réservation :  
 ![Voitures](screenshots/reserver.PNG)
 
-la page home  
-![Home](screenshots/home.PNG)
 
 ## 📂 Dossier des captures d'écran
 
