@@ -1,4 +1,4 @@
-# 🚗 Application de Gestion de Flotte - 2ITECH
+# 🚗 Application de Gestion de Parc Automobile
 
 Ce projet a pour objectif de réaliser une application complète pour la **Application de Gestion de Parc Automobile**. Elle permet la gestion des voitures, des entretiens, réparations, carburants, réservations, planifications, affectations et données administratives à travers une interface sécurisée.
 
@@ -18,7 +18,7 @@ Ce projet a pour objectif de réaliser une application complète pour la **Appli
   - Créer et gérer les utilisateurs
   - Attribuer des rôles et gérer les autorisations
 
-![Login](screenshots/login.png)
+![Login](screenshots/login.PNG)
 
 ![user](screenshots/utilisateurs.png)
 
