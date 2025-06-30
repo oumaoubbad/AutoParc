@@ -1,61 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# 🚗 Application de Gestion de Flotte - 2ITECH
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Ce projet a pour objectif de réaliser une application complète pour la **Application de Gestion de Parc Automobile**. Elle permet la gestion des voitures, des entretiens, réparations, carburants, réservations, planifications, affectations et données administratives à travers une interface sécurisée.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+ Module Authentification
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Accès sécurisé par **login et mot de passe**
+- Deux types de profils sont gérés par l’application :
+  - 👤 **Administrateur**
+  - 👤 **Utilisateur**
+- Un administrateur principal est déjà préconfiguré pour la première connexion :
+  - **Email** : `admin@admin.com`
+  - **Mot de passe** : `123456789`
+- Après connexion, cet administrateur peut :
+  - Créer de nouveaux administrateurs
+  - Créer et gérer les utilisateurs
+  - Attribuer des rôles et gérer les autorisations
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Login](screenshots/login.png)
 
-## Learning Laravel
+![user](screenshots/utilisateurs.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📘 Module Référentiel de Données
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Gestion des entités de base utilisées dans l’application :
 
-## Laravel Sponsors
+- Modèles de voitures
+- Marques de voitures
+- Types de carburants
+- Types d’entretiens
+- Types de réparations
+- Fonctions d’employés
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+---
 
-### Premium Partners
+## 🚙 Modules Fonctionnels
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+| Module | Description |
+|--------|-------------|
+| **Voitures** | Gestion complète du parc automobile |
+| **Traite** | Suivi administratif ou financier |
+| **Carburants** | Gestion de la consommation et type de carburant |
+| **Entretiens** | Planification et historique des maintenances |
+| **Réparations** | Suivi des réparations réalisées |
+| **Réservations** | Réservation de véhicules par les utilisateurs |
+| **Affectations** | Attribution des voitures aux employés |
+| **Planifications** | Organisation des déplacements ou utilisations prévues |
+| **Administratifs** | Gestion des documents liés aux véhicules (assurance, carte grise, etc.) |
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🛠️ Technologies utilisées
 
-## Code of Conduct
+- Laravel (Back-end PHP)
+- Blade (Templates HTML)
+- MySQL (Base de données)
+- Bootstrap (Design responsive)
+- JavaScript
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📸 Captures d’écran
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Page de connexion :  
+![Connexion](screenshots/login.png)
 
-## License
+Tableau de bord :  
+![Dashboard](screenshots/menu.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Gestion des voitures :  
+![Voitures](screenshots/voitures.png)
+
+la page home  
+![Home](screenshots/home.png)
+
+
+> 
+
+---
+
+## 🚀 Installation
+
+```bash
+# Cloner le projet
+git clone https://github.com/oumaoubbad/AutoParc.git
+
+# Accéder au dossier
+cd AutoParc
+
+# Installer les dépendances PHP
+composer install
+
+# Configuration de l’environnement
+cp .env.example .env
+php artisan key:generate
+
+# Configurer la base de données dans le fichier .env
+
+# Lancer les migrations
+php artisan migrate
+
+# Lancer le serveur de développement
+php artisan serve
