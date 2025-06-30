@@ -13,14 +13,16 @@ Ce projet a pour objectif de réaliser une application complète pour la **Appli
 - Un administrateur principal est déjà préconfiguré pour la première connexion :
   - **Email** : `admin@admin.com`
   - **Mot de passe** : `123456789`
+![Login](screenshots/login.PNG)
 - Après connexion, cet administrateur peut :
   - Créer de nouveaux administrateurs
   - Créer et gérer les utilisateurs
   - Attribuer des rôles et gérer les autorisations
+![user](screenshots/utilisateurs.PNG)
+![AddUser](screenshots/ajoutéé-utilisateur.PNG)
+![EditUser](screenshots/modifier-user.PNG)
+![DeleteUser](screenshots/supprimer-user.PNG)
 
-![Login](screenshots/login.PNG)
-
-![user](screenshots/utilisateurs.png)
 
 ## 📘 Module Référentiel de Données
 
@@ -64,17 +66,23 @@ Gestion des entités de base utilisées dans l’application :
 ## 📸 Captures d’écran
 
 Page de connexion :  
-![Connexion](screenshots/login.png)
+![Connexion](screenshots/login.PNG)
 
 Tableau de bord :  
-![Dashboard](screenshots/menu.png)
+![Dashboard](screenshots/menu.PNG)
 
 Gestion des voitures :  
-![Voitures](screenshots/voitures.png)
+![Voitures](screenshots/voitures.PNG)
+
+Gestion des Réservation :  
+![Voitures](screenshots/reserver.PNG)
 
 la page home  
-![Home](screenshots/home.png)
+![Home](screenshots/home.PNG)
 
+## 📂 Dossier des captures d'écran
+
+Toutes les captures d’écran utilisées dans ce projet sont disponibles dans le dossier [`/screenshots`](screenshots/).
 
 > 
 
